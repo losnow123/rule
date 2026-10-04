@@ -140,7 +140,7 @@
     "store": "chrome"
   },
   "ntp": {
-    "enabled": false,
+    "enabled": false
   },
   "log": {
     "disabled": true,
