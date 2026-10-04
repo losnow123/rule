@@ -33,7 +33,7 @@
     ],
     "rules": [
       {"query_type": ["HTTPS", "SVCB"], "action": "reject"},
-      {"rule_set": ["geosite-cn", "Private-Domain"], "server": "smartdns"},
+      {"rule_set": ["geosite-cn", "Private-Domain", "China-IP"], "server": "smartdns"},
       {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
     ],
     "final": "fakeip",
