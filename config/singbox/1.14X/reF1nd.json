@@ -2,12 +2,27 @@
   "$schema": "https://raw.githubusercontent.com/reF1nd/sing-box/reF1nd-testing/docs/schema.json",
   "providers": [
     {
-      "tag": "JC1",
+      "tag": "机场订阅一",
       "type": "remote",
       "url": "此处填入订阅链接",
-      "health_check": {"enabled":true,"url":"https://www.gstatic.com/generate_204","interval":"10m","timeout":"3s"},
-      "exclude": "官网|剩余|流量|套餐|免费|订阅|全球直连|到期时间|GB|Expire Date|Traffic|ExpireDate",
+      "health_check": {"enabled":true,"url":"https://www.gstatic.com/generate_204","interval":"30m","timeout":"3s"},
       "http_client": "直连下载",
+      "update_interval": "12h"
+    },
+    {
+      "tag": "机场订阅二",
+      "type": "remote",
+      "url": "此处填入订阅链接",
+      "health_check": {"enabled":true,"url":"https://www.gstatic.com/generate_204","interval":"30m","timeout":"3s"},
+      "include": "香港|台湾|日本|韩国|广港|香港|HK|Hong Kong|🇭🇰|HongKong|广台|台湾|台灣|TW|Tai Wan|🇹🇼|TaiWan|Taiwan|广日|日本|JP|东京|大阪|埼玉|🇯🇵|Japan|广韩|韩国|韓國|KR|首尔|春川|🇰🇷|Korea",
+      "http_client": "直连下载",
+      "update_interval": "12h"
+    },
+    {
+      "tag": "机场订阅三",
+      "type": "remote",
+      "url": "此处填入订阅链接",
+      "health_check": {"enabled":true,"url":"https://www.gstatic.com/generate_204","interval":"30m","timeout":"3s"},
       "update_interval": "12h"
     }
   ],
