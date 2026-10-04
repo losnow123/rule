@@ -63,6 +63,7 @@
   ],
   "route": {
     "rules": [
+      {"protocol":"dns","action":"hijack-dns"},
       {"rule_set":"AI","outbound":"✨ AI"},
       {"rule_set":"TikTok","outbound":"👩‍👧‍👦 TikTok"},
       {"rule_set":"YouTube","outbound":"🎥 流媒体"},
