@@ -87,10 +87,10 @@
       {"tag":"Private-Domain","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/private.srs"},
       {"tag":"China-IP","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo-lite/geoip/cn.srs"}
     ],
-    "final": "漏网之鱼",
+    "final": "🌍 国外",
     "default_http_client": "直连下载",
     "auto_detect_interface": true,
-    "default_domain_resolver": {"server": "ali"}
+    "default_domain_resolver": {"server": "smartdns"}
   },
   "inbounds": [
     {
@@ -125,7 +125,7 @@
   "experimental": {
     "cache_file": {
       "enabled": true,
-      "path": "/etc/sing-box/cache.db",
+      "path": "/tmp/sing-box/cache.db",
       "store_dns": true
     },
     "clash_api": {
@@ -139,11 +139,10 @@
     "store": "chrome"
   },
   "ntp": {
-    "enabled": true,
-    "server": "time.apple.com"
+    "enabled": false,
   },
   "log": {
-    "disabled": false,
+    "disabled": true,
     "level": "info",
     "timestamp": true
   }
