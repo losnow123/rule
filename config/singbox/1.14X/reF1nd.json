@@ -77,6 +77,15 @@
     ],
     "rule_set": [
       {"tag":"AI","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/category-ai-!cn.srs"},
+      {"tag":"TikTok","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/tiktok.srs"},
+      {"tag":"YouTube","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/youtube.srs"},
+      {"tag":"HBO","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/hbo.srs"},
+      {"tag":"Disney","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo/geosite/disney.srs"},
+      {"tag":"Netflix","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/netflix.srs"},
+      {"tag":"Spotify","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/spotify.srs"},
+      {"tag":"Global","type":"remote","format":"binary","url":"https://gh-proxy.com/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs"},
+      {"tag":"Private-Domain","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/private.srs"},
+      {"tag":"China-IP","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo-lite/geoip/cn.srs"}
     ],
     "final": "漏网之鱼",
     "default_http_client": "直连下载",
