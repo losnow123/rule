@@ -36,7 +36,7 @@
       {"rule_set": ["geosite-cn", "geosite-private"], "server": "smartdns"},
       {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
     ],
-    "final": "google",
+    "final": "fakeip",
     "strategy": "ipv4_only", 
     "cache_capacity": 8192,
     "optimistic": {"enabled": true},
