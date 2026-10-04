@@ -72,7 +72,7 @@
       {"rule_set":"Spotify","outbound":"🎥 流媒体"},
       {"rule_set":"Private-Domain","outbound":"➡️ 国内"},
       {"rule_set":"China-IP","outbound":"➡️ 国内"},
-      {"rule_set":"Global","outbound":"🌍 国外","no_resolve":true},
+      {"rule_set":"Global","outbound":"🌍 国外"},
       {"outbound":"🌍 国外"}
     ],
     "rule_set": [
