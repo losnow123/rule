@@ -63,7 +63,7 @@
   ],
   "route": {
     "rules": [
-      {"port":53,"action":"hijack-dns"},
+      {"protocol":"dns","action":"hijack-dns"},
       {"ip_is_private":true,"outbound":"➡️ 国内"},
       {"rule_set":"AI","outbound":"✨ AI"},
       {"rule_set":"TikTok","outbound":"👩‍👧‍👦 TikTok"},
