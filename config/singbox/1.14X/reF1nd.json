@@ -85,7 +85,7 @@
       {"tag":"Spotify","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/spotify.srs"},
       {"tag":"Global","type":"remote","format":"binary","url":"https://gh-proxy.com/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs"},
       {"tag":"Private-Domain","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/private.srs"},
-      {"tag":"geosite-cn","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/geosite-cn.srs"},
+      {"tag":"geosite-cn","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/sing/geo-lite/geosite/cn.srs"},
       {"tag":"China-IP","type":"remote","format":"binary","url":"https://gh-proxy.com/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo-lite/geoip/cn.srs"}
     ],
     "final": "🌍 国外",
