@@ -29,8 +29,7 @@
   "dns": {
     "servers": [
       {"tag": "smartdns", "type": "udp", "server": "127.0.0.1", "server_port": 6053},
-      {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.19.0.0/16"},
-      {"type": "hosts", "tag": "hosts", "predefined": {"doh.pub": ["1.12.12.21", "120.53.53.53"]}}
+      {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.19.0.0/16"}
     ],
     "rules": [
       {"query_type": ["HTTPS", "SVCB"], "action": "reject"},
